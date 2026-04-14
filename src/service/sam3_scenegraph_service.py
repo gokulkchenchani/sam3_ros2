@@ -2,8 +2,8 @@
 
 import rclpy
 from rclpy.node import Node
-from sam3_inference.srv import SceneInferenceSam3
-from sam3_inference.msg import Detection, BBox
+from sam3_ros2.srv import SceneInferenceSam3
+from sam3_ros2.msg import Detection, BBox
 from cv_bridge import CvBridge
 
 from utils.sam3_scene_infer import Sam3SceneInference

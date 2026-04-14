@@ -5,8 +5,8 @@ import sys
 # sys.path.append("/home/ws/ros2_ws/install/sam3_inference/lib/python3.10/site-packages")
 
 from rclpy.node import Node
-from sam3_inference.srv import InferenceSam3
-from sam3_inference.msg import Detection, BBox
+from sam3_ros2.srv import InferenceSam3
+from sam3_ros2.msg import Detection, BBox
 from cv_bridge import CvBridge
 import cv2
 
